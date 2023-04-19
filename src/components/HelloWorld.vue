@@ -91,6 +91,9 @@ export default {
   props: {
     msg: String,
   },
+  mounted() {
+    console.log(123);
+  },
 };
 </script>
 
